@@ -1,0 +1,12 @@
+function getRandomInt() {
+    var fail = 9;
+    var randomNumber = Math.floor(Math.random() * fail) + 1;
+    var randomNumber = "selection" + randomNumber + ".html";
+    window.location.href = randomNumber;
+}
+function getRandomInten() {
+    var fail = 9;
+    var randomNumber = Math.floor(Math.random() * fail) + 1;
+    var randomNumber = "selectionen" + randomNumber + ".html";
+    window.location.href = randomNumber;
+}
