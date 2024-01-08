@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <link href="script2.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+    <title>結果画面</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-image: url('背景1.png'), url('背景2.png');
+            background-repeat: no-repeat;
+            /* 背景画像の繰り返しを禁止 */
+            margin: 0;
+            /* ボディの余白をなくす */
+            background-size: contain;
+            background-position: left, right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center><button class="btn_01" onclick="translatePage()">ENGLISH</button></center>
+    <center>
+        <font size="5">
+            <font face="Kosugi">
+                <h1><span style="font-size:170%;">教えるよ！</span>
+                    <br>
+                    <font color="#009600">滝沢</font>・<font color="#297b4a">盛岡</font>のいいところ
+                </h1>
+            </font>
+        </font>
+    </center>
+    <center>
+        <p>
+        <h2>観光スポット：北上川</h2>
+        <h2>一言：桜の季節には花見もできて、
+            <br>孫たちと一緒に穏やかな時間を過ごせる川だよ。
+        </h2>
+        <img src="北上川.jpg" width="700" height="500">
+        <br>URL<a href="https://www.thr.mlit.go.jp/karyuu/history/kitakami.html">北上川</a>
+        <br>by 中村寿男（なかむら ひさお）</p>
+    </center>
+
+    <center><button class="btn_06" onclick="location.href='index.html'">戻る</button></center>
+    <script>
+        function translatePage() {
+            window.location.href = "selectionen5.html";
+        }
+    </script>
+</body>
+
+</html>

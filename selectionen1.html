@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="script2.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+    <title>結果画面</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-image: url('背景1.png'), url('背景2.png');
+            background-repeat: no-repeat;
+            /* 背景画像の繰り返しを禁止 */
+            margin: 0;
+            /* ボディの余白をなくす */
+            background-size: contain;
+            background-position: left, right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center><button class="btn_01" onclick="translatePage()">日本語</button></center>
+    <center>
+        <font size="5">
+            <font face="Kosugi">
+                <h1><span style="font-size:200%;">I'll tell you!</span>
+                    <br>
+                    Nice place in <font color="#009600"></font>Takizawa
+            </font> and <font color="#297b4a"></font>Morioka
+        </font>
+        </h1>
+        </font>
+        </font>
+    </center>
+    <center>
+        <p>
+        <h2>Name of a store：本場インド料理店ダージリン盛岡</h2>
+        <h2>A word of advice: visit with your family and friends and have a good time!</h2>
+        <img src="ダージリン.jpg" width="600" height="400">
+        <br>URL<a href="http://www.indian-restaurant-darjeeling.com/">本場インド料理店ダージリン盛岡Home Page</a>
+        <br>by Mituo kobayashi</p>
+    </center>
+
+    <center><button class="btn_06" onclick="location.href='indexen.html'">return</button></center>
+    <script>
+        function translatePage() {
+            window.location.href = "selection1.html";
+        }
+    </script>
+</body>
+
+</html>

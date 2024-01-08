@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="script2.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+    <title>結果画面</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-image: url('背景1.png'), url('背景2.png');
+            background-repeat: no-repeat;
+            /* 背景画像の繰り返しを禁止 */
+            margin: 0;
+            /* ボディの余白をなくす */
+            background-size: contain;
+            background-position: left, right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center><button class="btn_01" onclick="translatePage()">日本語</button></center>
+    <center>
+        <font size="5">
+            <font face="Kosugi">
+                <h1><span style="font-size:200%;">I'll tell you!</span>
+                    <br>
+                    Nice place in <font color="#009600"></font>Takizawa
+            </font> and <font color="#297b4a"></font>Morioka
+        </font>
+        </h1>
+        </font>
+        </font>
+    </center>
+    <center>
+        <p>
+        <h2>Sightseeing Spots：北上川</h2>
+        <h2>A word of advice: It's a river where I can spend peaceful time
+            <br>with my grandchildren.
+        </h2>
+        <img src="北上川.jpg" width="700" height="500">
+        <br>URL<a href="https://www.thr.mlit.go.jp/karyuu/history/kitakami.html">北上川Home Page</a>
+        <br>by Hisao Nakamura</p>
+    </center>
+
+    <center><button class="btn_06" onclick="location.href='indexen.html'">return</button></center>
+    <script>
+        function translatePage() {
+            window.location.href = "selection5.html";
+        }
+    </script>
+</body>
+
+</html>
